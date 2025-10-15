@@ -103,7 +103,7 @@ Potential threats denote a category of observations which attribute a potential 
 
 |attribute|description|impact|
 --- | --- | --- |
-|anomaly|This type denotes an observation that deviates from expected patterns or baselines but is not immediately identifiable as a specific vulnerability or malicious event. | The impact is unknown without further analysis. It could range from benign to indicative of reconnaissance activity or an emerging compromise.|
+|anomaly|This type denotes an observation that deviates from expected patterns or baselines but is not immediately identifiable as a specific vulnerability or malicious event.|The impact is unknown without further analysis. It could range from benign to indicative of public exposure or a known vulnerability.|
 |artifact|Artifacts refer to host-based indicators, such as checksums, file paths or detection rules.|These observations do not directly reference a compromise, rather can be used for monitoring and detection.|
 |attribution|Observations that can be attributed to malicious activity, which are not detailed enough to action on, from the victim notification perspective.|These observations require further assessment or analysis.|
 |blocked resource|Some sources provide reputation lists which clearly refer to abusive behavior (such as spamming) but fail to denote the exact reason why a given identity has been listed. The justification may be anecdotal or missing entirely.|Services appearing on these lists will have difficulty to operate normally, as their service specific communication will be blocked by third parties.|
